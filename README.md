@@ -12,14 +12,6 @@ general information: https://endeavouros-team.github.io/EndeavourOS-Development/
 sudo pacman -S archiso mkinitcpio-archiso git squashfs-tools --needed
 ```
 
-## Calamares Packages:
-Copy the 3 packages you can download here:
-https://github.com/killajoe/artemis-iso-rebuild/releases
-to this directory on the ISO build filesystem
-~~~
-airootfs/root/packages
-~~~
-
 Packages will get installed and directory will be cleaned up after that.
 
 ### Build
