@@ -9,7 +9,7 @@ general information: https://endeavouros-team.github.io/EndeavourOS-Development/
 ### Install build dependencies
 
 ```
-sudo pacman -S archiso mkinitcpio-archiso git squashfs-tools --needed
+sudo pacman -S archiso mkinitcpio-archiso git squashfs-tools wget --needed
 ```
 
 Packages will get installed and directory will be cleaned up after that.
